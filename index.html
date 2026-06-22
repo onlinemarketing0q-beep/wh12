@@ -1,30 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Gujarati Trader</title>
 
-<!-- META PIXEL -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];
-t=b.createElement(e);t.async=!0;
-t.src=v;
-s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s);
-}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', '1620731272361959');
-fbq('track', 'PageView');
-</script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
 <style>
 
@@ -32,179 +13,163 @@ fbq('track', 'PageView');
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Arial,sans-serif;
+font-family:'Poppins',sans-serif;
 }
 
 body{
 background:#000;
 color:white;
+display:flex;
+justify-content:center;
+align-items:center;
 min-height:100vh;
-overflow-x:hidden;
+padding:20px;
 }
 
 .container{
-max-width:500px;
-margin:auto;
-padding:25px 18px;
+width:100%;
+max-width:420px;
 text-align:center;
 }
 
-.logo{
-width:120px;
-height:120px;
-border-radius:50%;
-overflow:hidden;
+.logo-box{
+width:140px;
+height:140px;
 margin:auto;
+border-radius:50%;
 border:4px solid #FFD700;
+overflow:hidden;
 box-shadow:0 0 30px #FFD700;
+background:#083c2d;
 }
 
-.logo img{
+.logo-box img{
 width:100%;
 height:100%;
 object-fit:cover;
 }
 
-.badge{
+.tag{
+margin-top:30px;
 display:inline-block;
-margin-top:25px;
-padding:12px 24px;
-border-radius:50px;
-border:1px solid rgba(255,215,0,.3);
-background:#111;
+padding:12px 25px;
+border:1px solid rgba(255,215,0,.4);
+border-radius:40px;
+background:rgba(255,215,0,.08);
 color:#FFD700;
-font-weight:700;
-font-size:14px;
+font-weight:600;
+font-size:15px;
 }
 
 h1{
 margin-top:25px;
-font-size:58px;
-font-weight:900;
+font-size:55px;
+font-weight:800;
 color:#FFD700;
+line-height:1.1;
 }
 
 .desc{
-margin-top:18px;
-font-size:20px;
+margin-top:20px;
+font-size:18px;
 line-height:1.8;
 color:#d8d8d8;
 }
 
 .join-btn{
-display:inline-block;
-margin-top:30px;
-background:#25D366;
-color:#fff;
+display:block;
+margin-top:35px;
 text-decoration:none;
-padding:12px 24px;
+background:#25D366;
+padding:22px;
 border-radius:50px;
-font-size:16px;
+font-size:28px;
 font-weight:700;
-box-shadow:0 0 20px #25D366;
+color:white;
+box-shadow:0 0 30px #25D366;
 transition:.3s;
 }
 
 .join-btn:hover{
-transform:scale(1.03);
+transform:translateY(-3px);
 }
 
 .stats{
-margin-top:35px;
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:12px;
+margin-top:35px;
 }
 
 .card{
-background:#0c0c0c;
-border:1px solid #222;
-border-radius:20px;
-padding:20px 10px;
+background:#0b0b0b;
+border:1px solid rgba(255,255,255,.08);
+border-radius:22px;
+padding:25px 10px;
 }
 
 .card h2{
 color:#FFD700;
-font-size:34px;
-margin-bottom:8px;
+font-size:35px;
+font-weight:800;
 }
 
 .card p{
+margin-top:8px;
 font-size:18px;
-color:#fff;
+color:#ddd;
 }
 
 .footer{
-margin-top:35px;
-color:#777;
-font-size:14px;
+margin-top:50px;
+color:#888;
+font-size:15px;
 }
 
-.risk{
-margin-top:20px;
-font-size:13px;
-color:#9e9e9e;
-line-height:1.6;
+.disclaimer{
+margin-top:25px;
+font-size:15px;
+line-height:1.7;
+color:#a5a5a5;
 }
-
-/* MOBILE */
 
 @media(max-width:480px){
 
-.logo{
-width:95px;
-height:95px;
-}
-
 h1{
-font-size:38px;
-}
-
-.desc{
-font-size:16px;
+font-size:48px;
 }
 
 .join-btn{
-font-size:22px;
-padding:18px;
+font-size:24px;
 }
 
 .card h2{
-font-size:26px;
-}
-
-.card p{
-font-size:15px;
+font-size:28px;
 }
 
 }
 
 </style>
 </head>
-
 <body>
 
 <div class="container">
 
-<div class="logo">
-<img src="logo.png">
+<div class="logo-box">
+<img src="logo.png" alt="Logo">
 </div>
 
-<div class="badge">
+<div class="tag">
 🔥 PREMIUM TRADING COMMUNITY
 </div>
 
 <h1>ગુજરાતી Trader</h1>
 
 <div class="desc">
-Daily Intraday Calls • Bank Nifty Analysis • Nifty Setups •
-Option Trading Signals • Swing Trading Ideas
+Daily Intraday Calls • Bank Nifty Analysis • Nifty Setups • Option Trading Signals • Swing Trading Ideas
 </div>
 
-<a href="https://whatsapp.com/channel/0029VbCkGEf1CYoTUvpydv0k"
-class="join-btn"
-target="_blank"
-onclick="trackJoin()">
+<a href="https://whatsapp.com/channel/YOUR_CHANNEL_LINK" class="join-btn">
 📱 Join WhatsApp Channel
 </a>
 
@@ -231,25 +196,11 @@ onclick="trackJoin()">
 © 2026 Gujarati Trader
 </div>
 
-<div class="risk">
-⚠ Share market investments are subject to market risks.
-Please trade responsibly.
+<div class="disclaimer">
+⚠️ Share market investments are subject to market risks. Trade responsibly and consult your financial advisor before investing.
 </div>
 
 </div>
-
-<script>
-
-function trackJoin(){
-
-fbq('track','Lead');
-
-fbq('trackCustom','WhatsAppJoin');
-
-}
-
-</script>
 
 </body>
 </html>
-
