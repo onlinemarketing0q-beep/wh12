@@ -17,37 +17,30 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-background:
-radial-gradient(circle at top,#2a2100 0%,#000 35%),
-#000;
+background:#000;
 color:#fff;
 display:flex;
 justify-content:center;
 align-items:center;
 min-height:100vh;
-padding:20px;
-overflow-x:hidden;
+padding:15px;
 }
 
 .container{
 width:100%;
-max-width:330px;
+max-width:340px;
 text-align:center;
 }
 
 .logo{
-width:85px;
-height:85px;
+width:90px;
+height:90px;
 margin:auto;
 border-radius:50%;
 overflow:hidden;
 border:3px solid #FFD700;
+box-shadow:0 0 25px rgba(255,215,0,.8);
 background:#083b2d;
-
-box-shadow:
-0 0 10px #FFD700,
-0 0 25px rgba(255,215,0,.7),
-0 0 50px rgba(255,215,0,.4);
 }
 
 .logo img{
@@ -58,70 +51,49 @@ object-fit:cover;
 
 .badge{
 display:inline-block;
-margin-top:16px;
-padding:7px 14px;
+margin-top:18px;
+padding:8px 16px;
 border-radius:50px;
 background:rgba(255,215,0,.08);
 border:1px solid rgba(255,215,0,.2);
 color:#FFD700;
-font-size:10px;
+font-size:11px;
 font-weight:600;
-letter-spacing:1px;
+letter-spacing:.5px;
 }
 
 .title{
-margin-top:14px;
-font-size:38px;
+margin-top:16px;
+font-size:42px;
 font-weight:800;
 color:#FFD700;
-line-height:1;
-text-shadow:
-0 0 10px rgba(255,215,0,.6),
-0 0 25px rgba(255,215,0,.3);
+line-height:1.1;
 }
 
 .desc{
 margin-top:12px;
 font-size:13px;
-line-height:1.7;
-color:#d7d7d7;
+line-height:1.8;
+color:#d8d8d8;
 }
 
 .join-btn{
-display:flex;
-align-items:center;
-justify-content:center;
-
-width:240px;
-height:50px;
-
+display:block;
+width:85%;
 margin:24px auto 0;
-
-background:linear-gradient(135deg,#25D366,#1ebe5d);
-
-border-radius:50px;
-
-color:#fff;
+padding:14px;
+background:#25D366;
+border-radius:40px;
 text-decoration:none;
-
-font-size:15px;
+color:#fff;
+font-size:17px;
 font-weight:700;
-
-box-shadow:
-0 0 12px rgba(37,211,102,.9),
-0 0 30px rgba(37,211,102,.6),
-0 0 60px rgba(37,211,102,.3);
-
-transition:.3s ease;
+box-shadow:0 0 25px rgba(37,211,102,.7);
+transition:.3s;
 }
 
 .join-btn:hover{
-transform:translateY(-2px) scale(1.03);
-
-box-shadow:
-0 0 15px rgba(37,211,102,1),
-0 0 35px rgba(37,211,102,.8),
-0 0 70px rgba(37,211,102,.5);
+transform:translateY(-2px);
 }
 
 .stats{
@@ -132,54 +104,36 @@ margin-top:22px;
 }
 
 .card{
-background:rgba(255,255,255,.03);
+background:#0b0b0b;
 border:1px solid rgba(255,255,255,.08);
-backdrop-filter:blur(10px);
 border-radius:16px;
-padding:15px 8px;
+padding:16px 8px;
 }
 
 .card h2{
-font-size:22px;
+font-size:24px;
 font-weight:800;
 color:#FFD700;
 }
 
 .card p{
-font-size:11px;
+font-size:13px;
 margin-top:4px;
-color:#cfcfcf;
+color:#ddd;
 }
 
 .footer{
-margin-top:25px;
-font-size:11px;
+margin-top:28px;
+font-size:12px;
 color:#777;
 }
 
 .disclaimer{
-margin-top:12px;
-font-size:10px;
+margin-top:14px;
+font-size:11px;
 line-height:1.6;
-color:#8d8d8d;
-}
-
-@media(max-width:360px){
-
-.container{
-max-width:300px;
-}
-
-.title{
-font-size:34px;
-}
-
-.join-btn{
-width:220px;
-height:46px;
-font-size:14px;
-}
-
+color:#999;
+padding:0 8px;
 }
 
 </style>
@@ -190,7 +144,7 @@ font-size:14px;
 <div class="container">
 
 <div class="logo">
-<img src="logo.png" alt="Gujarati Trader Logo">
+<img src="logo.png" alt="Gujarati Trader">
 </div>
 
 <div class="badge">
@@ -198,14 +152,14 @@ font-size:14px;
 </div>
 
 <div class="title">
-ગુજરાતી<br>Trader
+ગુજરાતી Trader
 </div>
 
 <div class="desc">
 Daily Intraday Calls • Bank Nifty Analysis • Nifty Setups • Option Trading Signals • Swing Trading Ideas
 </div>
 
-<a href="https://whatsapp.com/channel/0029VbCkGEf1CYoTUvpydv0k" class="join-btn">
+<a href="https://whatsapp.com/channel/YOUR_CHANNEL_LINK" class="join-btn">
 📱 Join WhatsApp Channel
 </a>
 
@@ -233,7 +187,7 @@ Daily Intraday Calls • Bank Nifty Analysis • Nifty Setups • Option Trading
 </div>
 
 <div class="disclaimer">
-⚠️ Share market investments are subject to market risks. Trade responsibly.
+⚠️ Share market investments are subject to market risks. Please consult your financial advisor before investing.
 </div>
 
 </div>
